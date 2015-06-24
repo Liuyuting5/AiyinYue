@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="182" id="KGk-i7-Jjw" customClass="RightCell">
+            <rect key="frame" x="0.0" y="-1" width="334" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wk-n5-HtU">
+                        <rect key="frame" x="155" y="58" width="171" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="artist" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UE-7x-ehZ">
+                        <rect key="frame" x="155" y="92" width="171" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HomecellofficBgg.png" translatesAutoresizingMaskIntoConstraints="NO" id="WGF-xp-BXf">
+                        <rect key="frame" x="0.0" y="0.0" width="116" height="128"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="WGF-xp-BXf" secondAttribute="bottom" id="0wR-SJ-SdH"/>
+                    <constraint firstItem="6wk-n5-HtU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="139" id="ALA-ZT-XIi"/>
+                    <constraint firstItem="WGF-xp-BXf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="B9a-On-dOa"/>
+                    <constraint firstItem="1UE-7x-ehZ" firstAttribute="leading" secondItem="WGF-xp-BXf" secondAttribute="trailing" constant="23" id="LbQ-g5-drs"/>
+                    <constraint firstAttribute="trailing" secondItem="6wk-n5-HtU" secondAttribute="trailing" constant="8" id="W00-ly-yNs"/>
+                    <constraint firstItem="WGF-xp-BXf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hIg-Xy-ubJ"/>
+                    <constraint firstAttribute="trailing" secondItem="1UE-7x-ehZ" secondAttribute="trailing" constant="8" id="nml-DX-KS6"/>
+                    <constraint firstItem="6wk-n5-HtU" firstAttribute="leading" secondItem="WGF-xp-BXf" secondAttribute="trailing" constant="23" id="q3c-Mj-1pA"/>
+                    <constraint firstItem="1UE-7x-ehZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="139" id="zGk-H8-3Hb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="artistLabel" destination="1UE-7x-ehZ" id="bJw-fx-NVk"/>
+                <outlet property="iconView" destination="WGF-xp-BXf" id="yHw-Tx-Zh0"/>
+                <outlet property="titleLabel" destination="6wk-n5-HtU" id="7jo-W6-ggd"/>
+            </connections>
+            <point key="canvasLocation" x="669" y="159"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="HomecellofficBgg.png" width="102" height="63"/>
+    </resources>
+</document>

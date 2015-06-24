@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="191" id="KGk-i7-Jjw" customClass="VbangCell">
+            <rect key="frame" x="0.0" y="0.0" width="388" height="191"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomecellofficBgg.png" translatesAutoresizingMaskIntoConstraints="NO" id="OEd-aM-zR5">
+                        <rect key="frame" x="0.0" y="0.0" width="388" height="190"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="title" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogb-Te-kCN">
+                        <rect key="frame" x="178" y="112" width="210" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="u6u-AJ-dz5"/>
+                            <constraint firstAttribute="height" constant="22" id="vL0-Hg-Mfi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="artist" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDy-rv-Qj0">
+                        <rect key="frame" x="256" y="148" width="147" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="plS-gj-K6u"/>
+                            <constraint firstAttribute="width" constant="147" id="srV-rx-Nza"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="scroe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tq1-7a-xh8">
+                        <rect key="frame" x="23" y="134" width="90" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="B8n-yW-e3D"/>
+                            <constraint firstAttribute="width" constant="90" id="egI-16-jRL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="rank" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rto-7s-Bx1">
+                        <rect key="frame" x="23" y="69" width="90" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="e2z-NX-oD9"/>
+                            <constraint firstAttribute="height" constant="60" id="oYP-xu-d9L"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="OEd-aM-zR5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3za-J6-Gmm"/>
+                    <constraint firstItem="rto-7s-Bx1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="CC7-gd-TSa"/>
+                    <constraint firstItem="OEd-aM-zR5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Crp-s5-b8L"/>
+                    <constraint firstAttribute="trailing" secondItem="ogb-Te-kCN" secondAttribute="trailing" constant="5" id="HsE-7Y-bTO"/>
+                    <constraint firstAttribute="bottom" secondItem="rto-7s-Bx1" secondAttribute="bottom" constant="130" id="ImT-Cj-Zbf"/>
+                    <constraint firstItem="tq1-7a-xh8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="LSW-x0-2Cw"/>
+                    <constraint firstAttribute="bottom" secondItem="kDy-rv-Qj0" secondAttribute="bottom" constant="5" id="LvS-SZ-G5v"/>
+                    <constraint firstAttribute="bottom" secondItem="ogb-Te-kCN" secondAttribute="bottom" constant="40" id="R6B-Vy-bDN"/>
+                    <constraint firstAttribute="bottom" secondItem="tq1-7a-xh8" secondAttribute="bottom" constant="10" id="Wgj-lz-09e"/>
+                    <constraint firstAttribute="trailing" secondItem="OEd-aM-zR5" secondAttribute="trailing" id="Wkq-4z-Mct"/>
+                    <constraint firstAttribute="trailing" secondItem="kDy-rv-Qj0" secondAttribute="trailing" constant="5" id="fKd-Jj-heT"/>
+                    <constraint firstAttribute="bottom" secondItem="OEd-aM-zR5" secondAttribute="bottom" id="lpY-i2-Pbz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="artistLabel" destination="kDy-rv-Qj0" id="cnx-1J-285"/>
+                <outlet property="pictureView" destination="OEd-aM-zR5" id="Avo-5Q-6pY"/>
+                <outlet property="rankLabel" destination="rto-7s-Bx1" id="xSf-qr-wnw"/>
+                <outlet property="scoreLabel" destination="tq1-7a-xh8" id="H4v-sC-i11"/>
+                <outlet property="titleLabel" destination="ogb-Te-kCN" id="DFr-TD-BHY"/>
+            </connections>
+            <point key="canvasLocation" x="325" y="177.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="HomecellofficBgg.png" width="102" height="63"/>
+    </resources>
+</document>

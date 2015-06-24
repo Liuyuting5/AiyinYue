@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VBangViewController">
+            <connections>
+                <outlet property="dateLable" destination="MWR-P8-Pq7" id="sBw-qy-UId"/>
+                <outlet property="tableView" destination="IEZ-cc-9MP" id="SkX-yX-OXd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWR-P8-Pq7">
+                    <rect key="frame" x="100" y="34" width="155" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="1yK-aE-Ec9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="IEZ-cc-9MP">
+                    <rect key="frame" x="-7" y="167" width="382" height="383"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="GCg-Yx-COH"/>
+                        <outlet property="delegate" destination="-1" id="Zjh-0u-icg"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="IEZ-cc-9MP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="140" id="6cp-gc-30j"/>
+                <constraint firstAttribute="trailing" secondItem="MWR-P8-Pq7" secondAttribute="trailing" id="HFt-fY-5MX"/>
+                <constraint firstAttribute="trailing" secondItem="IEZ-cc-9MP" secondAttribute="trailing" id="OMx-em-Tbq"/>
+                <constraint firstAttribute="bottom" secondItem="IEZ-cc-9MP" secondAttribute="bottom" id="dGc-yy-teA"/>
+                <constraint firstItem="IEZ-cc-9MP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="h7K-Kl-shM"/>
+                <constraint firstItem="MWR-P8-Pq7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mYM-Ed-ym4"/>
+                <constraint firstItem="MWR-P8-Pq7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="114" id="y3G-vl-FIt"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="355.5" y="337.5"/>
+        </view>
+    </objects>
+</document>

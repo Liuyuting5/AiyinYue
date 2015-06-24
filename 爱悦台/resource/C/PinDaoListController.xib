@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PinDaoListController">
+            <connections>
+                <outlet property="tableView" destination="2gU-Se-l9R" id="IId-vV-Mhn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="2gU-Se-l9R">
+                    <rect key="frame" x="-15" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="irb-nU-0vo"/>
+                        <outlet property="delegate" destination="-1" id="EHp-XM-jnS"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2gU-Se-l9R" secondAttribute="bottom" id="Gbf-Im-Sgp"/>
+                <constraint firstItem="2gU-Se-l9R" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LrQ-uf-MLK"/>
+                <constraint firstAttribute="trailing" secondItem="2gU-Se-l9R" secondAttribute="trailing" id="NCg-14-wiq"/>
+                <constraint firstItem="2gU-Se-l9R" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="ju7-Nf-kci"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="420.5" y="219.5"/>
+        </view>
+    </objects>
+</document>
