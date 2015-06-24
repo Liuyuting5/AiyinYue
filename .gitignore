@@ -17,6 +17,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 libMobileVLCKit
+.DS_Store
 
 # CocoaPods
 #
